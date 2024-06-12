@@ -2,6 +2,7 @@ body{
     background-color: #2b2d30;
     height: 100%;
     margin: 0;
+    background-image: url("assets/image/foto.jpg");
 }
 
 
@@ -174,19 +175,25 @@ h2{
 
 
 
-#dropdown-item{
-    background-color: #118b96;
-}
-
-.card{
-    border-radius: 30px;
-    background-color: aliceblue;
-    overflow: hidden;
-}
-
-.fondo{
+.contenedor-fondo {
+    background-image: url("assets/image/foto.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 
 }
+
+
+.fondo-1 {
+    width: 100%;
+    height: 500px;
+    background-image: url('assets/image/foto.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 
 /* Estilo para la columna con fondo transparente */
 .columna-color {
@@ -195,14 +202,11 @@ h2{
     border-radius: 10px; /* Bordes curvados */
 }
 
-/* Estilo para las tarjetas */
 .card {
     margin: 15px;
     border-radius: 15px; /* Bordes curvados */
     flex: 1;
-    /* Para evitar que las tarjetas se estiren */
     min-width: 250px;
-    /* Ancho mínimo para tarjetas */
 }
 
 /* Estilo para las imágenes en las tarjetas */
@@ -218,16 +222,6 @@ h2{
     text-align: center;
 }
 
-/* Estilo para el contenedor de scrollspy */
-.scrollspy-example {
-    height: 600px;
-    overflow-y: scroll;
-    position: relative;
-    padding: 20px;
-    border: 1px solid #dee2e6;
-    border-radius: 15px; /* Bordes curvados */
-    margin-top: 20px;
-}
 
 /* Estilo para los títulos */
 h7 {
