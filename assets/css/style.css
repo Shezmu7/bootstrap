@@ -80,56 +80,43 @@ h2{
 }
 
 
-
-.contenedor-fondo {
-    background-image: url("assets/image/foto.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
+.fondo-especial {
+    background-image: url('assets/image/fondo.jpg');
     background-size: cover;
-    background-attachment: fixed;
-
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
 }
 
 
 .fondo-1 {
     width: 100%;
     height: 500px;
-    background-image: url('assets/image/foto.jpg');
+    background-image: url('assets/image/fondo2.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 
-/* Estilo para la columna con fondo transparente */
 .columna-color {
     background-color: rgba(0, 0, 255, 0.5); /* Fondo azul con transparencia */
     padding: 15px;
-    border-radius: 10px; /* Bordes curvados */
+    border-radius: 10px;
 }
 
 .card {
     margin: 15px;
-    border-radius: 15px; /* Bordes curvados */
+    border-radius: 15px;
     flex: 1;
     min-width: 250px;
 }
 
-/* Estilo para las imágenes en las tarjetas */
 .card-img-top {
-    border-radius: 15px 15px 0 0; /* Bordes curvados solo en la parte superior */
+    border-radius: 15px 15px 0 0;
 }
 
-/* Centrado del botón de enlace */
-.btn-primary {
-    display: block;
-    width: 200px;
-    margin: 20px auto;
-    text-align: center;
-}
-
-
-/* Estilo para los títulos */
 h7 {
     text-align: center;
     font-family: "agency fb", sans-serif;
@@ -139,17 +126,4 @@ h7 {
     position: relative;
     margin: 0;
     padding: 5px;
-}
-
-/* Estilo para los enlaces del menú */
-.nav-link h8 {
-    margin: 0;
-    padding: 5px;
-}
-
-/* Separador de línea */
-hr {
-    border: 1px solid #000;
-    border-radius: 5px;
-    margin: 20px 0;
 }
